@@ -1,0 +1,421 @@
+{
+    "messages" : [
+        {
+            "id" : 1 , 
+            "name" : "Maria Hudson" ,
+            "messages" : "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet." ,
+            "time" :  "4.hour" ,
+            "image" : "https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/messages-1.jpg"
+        } ,
+        {
+            "id" : 2 , 
+            "name" : "Anna Nelson" ,
+            "messages" : "Lorem ipsum dolor sit amet Lorem iolor sit amet." ,
+            "time" :  "6.hour" ,
+            "image" : "https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/messages-2.jpg"
+        } ,
+        {
+            "id" : 3 , 
+            "name" : "David Muldon" ,
+            "messages" : "Lorem ipsum dolor sit amet m ipsum dolor sit amet." ,
+            "time" :  "8.hour" ,
+            "image" : "https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/messages-3.jpg"
+        } 
+
+    ] , 
+    "notifications" : [
+        {
+            "id" : 1 , 
+            "title" : "Lorem Ipsum"  , 
+            "description" : "Quae dolorem earum veritatis oditseno" , 
+            "time" : "30.min"
+        } ,
+        {
+            "id" : 2 , 
+            "title" : "Dicta reprehenderit"  , 
+            "description" : "Quae dolorem earum veritatis oditseno" , 
+            "time" : "4.hour"
+        } ,
+        {
+            "id" : 3 , 
+            "title" : "Atque rerum nesciunt"  , 
+            "description" : "Quae dolorem earum veritatis oditseno" , 
+            "time" : "5.hour"
+        } ,
+        {
+            "id" : 4 , 
+            "title" : "Lorem Ipsum"  , 
+            "description" : "Quae dolorem earum veritatis oditseno" , 
+            "time" : "6.hour"
+        }
+    ] ,
+    "cardsDashboard" : [
+        {
+            "id" : 1 , 
+            "title" : "Sales" ,
+            "time" : "Today" ,
+            "icon" : "https://icons.getbootstrap.com/assets/icons/cart4.svg" , 
+            "data" : "145" ,
+            "percent" : "12%" ,
+            "percentTitle" : "increase"
+        } ,
+        {
+            "id" : 2 , 
+            "title" : "Revenue" ,
+            "time" : "This Month" ,
+            "icon" : "https://icons.getbootstrap.com/assets/icons/currency-dollar.svg" , 
+            "data" : "$3,264" ,
+            "percent" : "8%" ,
+            "percentTitle" : "increase"
+        } ,
+        {
+            "id" : 3 , 
+            "title" : "Customers" ,
+            "time" : "This Year" ,
+            "icon" : "https://icons.getbootstrap.com/assets/icons/people-fill.svg" , 
+            "data" : "1244" ,
+            "percent" : "12%" ,
+            "percentTitle" : "decrease"
+        } 
+    ] , 
+    "reportChartDashboardDatas" : [
+        {  
+             "id" : 1 ,
+            "name": "00:00",
+            "Sales" : 31,
+            "Customers" : 15,
+            "Revenue": 11
+          },
+          {  
+            "id" : 2 ,
+          "name": "02:00",
+           "Sales" : 40,
+           "Customers" : 11,
+           "Revenue": 32
+         },
+         {  
+             "id" : 3 ,
+           "name": "04:00",
+            "Sales" : 28,
+            "Customers" : 32,
+            "Revenue": 45
+          },
+          {  
+             "id" : 4 ,
+           "name": "06:00",
+            "Sales" : 42,
+            "Customers" : 9,
+            "Revenue": 34
+          },
+          {  
+             "id" : 5 ,
+           "name": "07:00",
+            "Sales" : 82,
+            "Customers" : 24,
+            "Revenue": 52 
+            
+          },
+          {  
+             "id" : 6 ,
+           "name": "08:00",
+            "Sales" : 56,
+            "Customers" : 11,
+            "Revenue": 41 
+            
+          }
+    ] ,
+    "recentActivityDashboard" : [
+        {
+            "id" : 1 ,
+            "time" : "32 min",
+            "description" : "Quia quae rerum explicabo officiis beatae"
+        } ,
+        {
+            "id" : 2 ,
+            "time" : "56 min",
+            "description" : "Voluptatem blanditiis blanditiis eveniet"
+        } ,
+        {
+            "id" : 3 ,
+            "time" : "2 hrs",
+            "description" : "Voluptates corrupti molestias voluptatem"
+        } ,
+        {
+            "id" : 4 ,
+            "time" : "1 day",
+            "description" : "Tempore autem saepe occaecati voluptatem tempore"
+        } ,
+        {
+            "id" : 5 ,
+            "time" : "2 days",
+            "description" : "Est sit eum reiciendis exercitationem"
+        } ,
+        {
+            "id" : 6 ,
+            "time" : "4 weeks",
+            "description" : "Dicta dolorem harum nulla eius. Ut quidem quidem sit quas"
+        } 
+    ] ,
+    "budgeReportDashboaredDatas" :[
+        {
+          "subject": "Sales",
+          "A": 120,
+          "B": 110,
+          "fullMark": 150
+        },
+        {
+          "subject": "Market",
+          "A": 98,
+          "B": 130,
+          "fullMark": 150
+        },
+        {
+          "subject": "Develop",
+          "A": 86,
+          "B": 130,
+          "fullMark": 150
+        },
+        {
+          "subject": "Customer Support",
+          "A": 99,
+          "B": 100,
+          "fullMark": 150
+        },
+        {
+          "subject": "Stration",
+          "A": 85,
+          "B": 90,
+          "fullMark": 150
+        },
+        {
+          "subject": "Revenue",
+          "A": 65,
+          "B": 85,
+          "fullMark": 150
+        }
+      ] ,
+     
+      "websiteTraficDashboardDatas" : [
+        { 
+            "id" : 1 ,
+          "name": "Search Engine",
+          "value": 2400
+        },
+        {
+            "id" : 2 ,
+          "name": "Direct",
+          "value": 4567
+        },
+        {
+            "id" : 3 ,
+          "name": "Email",
+          "value": 1398
+        },
+        {
+            "id" : 4 ,
+          "name": "Union Ads",
+          "value": 9800
+        },
+        { 
+            "id" : 5 ,
+          "name": "Video Ads",
+          "value": 3908
+        }
+      ] ,
+      "newsUpdatesDashboard" : [
+        {
+           "id" : 1 ,
+           "image" : "https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/news-1.jpg"  ,
+           "title" : "Nihil blanditiis at in nihil autem" ,
+           "description" : "Sit recusandae non aspernatur laboriosam. Quia enim eligendi sed ut harum..."
+        } ,
+        {
+            "id" : 2 ,
+            "image" : "https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/news-2.jpg"  ,
+            "title" : "Quidem autem et impedit" ,
+            "description" : "Illo nemo neque maiores vitae officiis cum eum turos elan dries werona nande..."
+         } ,
+         {
+            "id" : 3 ,
+            "image" : "https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/news-3.jpg"  ,
+            "title" : "Id quia et et ut maxime similique occaecati ut" ,
+            "description" : "Fugiat voluptas vero eaque accusantium eos. Consequuntur sed ipsam et totam..."
+         } ,
+         {
+            "id" : 4 ,
+            "image" : "https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/news-4.jpg"  ,
+            "title" : "Laborum corporis quo dara net para" ,
+            "description" : "Qui enim quia optio. Eligendi aut asperiores enim repellendusvel rerum cuder..."
+         } , 
+         {
+            "id" : 5 ,
+            "image" : "https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/news-5.jpg"  ,
+            "title" : "Et dolores corrupti quae illo quod dolor" ,
+            "description" : "Odit ut eveniet modi reiciendis. Atque cupiditate libero beatae dignissimos eius..."
+         }
+      ] ,
+      "recentSalesDashboard" : [
+        {
+            "id" : 1 , 
+            "customer" : "Brandon Jacob" ,
+            "code" : "#2457" ,
+            "product" : "At praesentium minu" ,
+            "price" : "$64" ,
+            "status" : "Approved"
+        } ,
+        {
+            "id" : 2 , 
+            "customer" : "Ashleigh Langosh" ,
+            "code" : "#2049" ,
+            "product" : "At recusandae consectetur" ,
+            "price" : "$147" ,
+            "status" : "Approved"
+        } ,
+        {
+            "id" : 3 , 
+            "customer" : "Bridie Kessler" ,
+            "code" : "#2147" ,
+            "product" : "Blanditiis dolor omnis similique" ,
+            "price" : "$47" ,
+            "status" : "Pending"
+        } ,
+        {
+            "id" : 4 , 
+            "customer" : "Raheem Lehner" ,
+            "code" : "#2644" ,
+            "product" : "Sunt similique distinctio" ,
+            "price" : "$165" ,
+            "status" : "Approved"
+        } ,
+        {
+            "id" : 5 , 
+            "customer" : "Angus Grady" ,
+            "code" : "#2644" ,
+            "product" : "Ut voluptatem id earum et" ,
+            "price" : "$67" ,
+            "status" : "Rejected"
+        } 
+      ] ,
+      "TopSellingDashboard" : [
+        {
+            "id" : 1 , 
+            "preview" : "https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/product-1.jpg" ,
+            "product" : "Ut inventore ipsa voluptas nulla" ,
+            "price" : "$64" ,
+            "sold" : 124 ,
+            "revenue" : "$5828"
+        } ,
+        {
+            "id" : 2 , 
+            "preview" : "https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/product-3.jpg" ,
+            "product" : "Exercitationem similique doloremque" ,
+            "price" : "$46" ,
+            "sold" : 98 ,
+            "revenue" : "$4,508"
+        } ,
+        {
+            "id" : 3 , 
+            "preview" : "https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/product-4.jpg" ,
+            "product" : "Officiis quaerat sint rerum error" ,
+            "price" : 	"$32" ,
+            "sold" : 63 ,
+            "revenue" : "$2,016"
+        } ,
+        {
+            "id" : 4 , 
+            "preview" : "https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/product-5.jpg" ,
+            "product" : "Sit unde debitis delectus repellendus" ,
+            "price" : "$79" ,
+            "sold" : 41 ,
+            "revenue" : "$3,239"
+        }
+      ] ,
+      "lineChartChartjsPage" : [
+        { "id" : 1 ,
+          "name": "January",
+          "uv": 65
+        },
+        { "id" : 2 ,
+          "name": "February",
+          "uv": 59 
+        },
+        { "id" : 3 ,
+          "name": "March",
+          "uv": 80 
+        },
+        { "id" : 4 ,
+          "name": "April",
+          "uv": 81 
+        },
+        { "id" : 5 ,
+          "name": "May",
+          "uv": 56 
+        },
+        { "id" : 6 ,
+          "name": "June",
+          "uv": 55 
+        },
+        { "id" : 7 ,
+          "name": "July",
+          "uv": 40 
+        }
+      ] ,
+      "barChartChartjsPage" : [
+        { "id" : 1 ,
+          "name": "January",
+          "uv": 65
+        },
+        { "id" : 2 ,
+          "name": "February",
+          "uv": 59 
+        },
+        { "id" : 3 ,
+          "name": "March",
+          "uv": 80 
+        },
+        { "id" : 4 ,
+          "name": "April",
+          "uv": 81 
+        },
+        { "id" : 5 ,
+          "name": "May",
+          "uv": 56 
+        },
+        { "id" : 6 ,
+          "name": "June",
+          "uv": 55 
+        },
+        { "id" : 7 ,
+          "name": "July",
+          "uv": 40 
+        }
+      ] ,
+      "DoughnuttChartChartjsPage" : [
+        { "id" : 1 ,
+          "name": "January",
+          "uv": 300
+        },
+        { "id" : 2 ,
+          "name": "February",
+          "uv": 100 
+        },
+        { "id" : 3 ,
+          "name": "March",
+          "uv": 50 
+        }
+      ] ,
+      "pieChartChartjsPage" : [
+        { "id" : 1 ,
+          "name": "January",
+          "uv": 300
+        },
+        { "id" : 2 ,
+          "name": "February",
+          "uv": 100 
+        },
+        { "id" : 3 ,
+          "name": "March",
+          "uv": 50 
+        }
+      ]
+}
