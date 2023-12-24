@@ -1,0 +1,23 @@
+.accordionDolore .accordion{
+    background-color: inherit !important;
+}
+.accordionDolore .accordion-item{
+    border: none !important;
+    background-color: inherit !important;
+    border-bottom: 1px solid rgb(211, 211, 211 , 0.3) !important;
+}
+.accordionDolore .accordion-item:last-child{
+    border: none !important;
+}
+.accordionDolore .accordion-header{
+    background-color: inherit !important;
+}
+.accordionDolore .accordion-button{
+    background-color: inherit !important;
+}
+.accordionDolore .accordion-button[aria-expanded=true]{
+    color: rgb(9, 42, 255) !important;
+}
+.accordionDolore .accordion-button:focus{
+    box-shadow: none !important;
+}

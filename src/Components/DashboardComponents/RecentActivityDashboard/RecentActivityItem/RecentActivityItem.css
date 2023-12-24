@@ -1,0 +1,22 @@
+
+.activityDesc .description{
+    white-space:normal;
+    width: 80%;
+}
+.activityTime{
+    text-align: justify;
+    border-right: 3px solid rgb(249, 173, 173) ;
+    position: relative;
+    width: 20%;
+}
+
+.activityDesc .description .textdes{
+    padding-left: 15px;
+}
+
+.activityTime .circleActivity{
+    position: absolute;
+    top: 0;
+    right: -9px;
+    color: rgb(249, 173, 173) ;
+}

@@ -1,0 +1,23 @@
+.accordionItem{
+    width: 100%;
+}
+.WithoutOutlineAccordionBody .accordion{
+    margin: 10px 0;
+}
+.WithoutOutlineAccordionBody .accordion-item{
+    background-color: inherit !important;
+    border: none !important;
+    border-bottom: 1px solid rgb(211, 211, 211 ,0.3) !important;
+}
+.WithoutOutlineAccordionBody .accordion-item:last-child{
+    border-bottom: none !important;
+}
+.WithoutOutlineAccordionBody .accordion-button{
+    background-color: inherit !important;
+}
+.WithoutOutlineAccordionBody .accordion-button[aria-expanded = true]{
+    color: rgb(0, 0, 255);
+}
+.WithoutOutlineAccordionBody .accordion-button:focus{
+    box-shadow: none !important;
+}

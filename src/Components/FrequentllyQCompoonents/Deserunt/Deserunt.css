@@ -1,0 +1,23 @@
+.accordionDeserunt .accordion{
+    background-color: inherit !important;
+}
+.accordionDeserunt .accordion-item{
+    border: none !important;
+    background-color: inherit !important;
+    border-bottom: 1px solid rgb(211, 211, 211 , 0.3) !important;
+}
+.accordionDeserunt .accordion-item:last-child{
+    border: none !important;
+}
+.accordionDeserunt .accordion-header{
+    background-color: inherit !important;
+}
+.accordionDeserunt .accordion-button{
+    background-color: inherit !important;
+}
+.accordionDeserunt .accordion-button[aria-expanded=true]{
+    color: rgb(9, 42, 255) !important;
+}
+.accordionDeserunt .accordion-button:focus{
+    box-shadow: none !important;
+}

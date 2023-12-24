@@ -1,0 +1,18 @@
+.accordionItem{
+    width: 100%;
+}
+.DefaultAccordionBody .accordion{
+    margin: 10px 0;
+}
+.DefaultAccordionBody .accordion-item{
+    background-color: inherit !important;
+}
+.DefaultAccordionBody .accordion-button{
+    background-color: inherit !important;
+}
+.DefaultAccordionBody .accordion-button[aria-expanded = true]{
+    color: rgb(0, 0, 255);
+}
+.DefaultAccordionBody .accordion-button:focus{
+    box-shadow: none !important;
+}

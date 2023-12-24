@@ -1,0 +1,23 @@
+.accordionLaborum .accordion{
+    background-color: inherit !important;
+}
+.accordionLaborum .accordion-item{
+    border: none !important;
+    background-color: inherit !important;
+    border-bottom: 1px solid rgb(211, 211, 211 , 0.3) !important;
+}
+.accordionLaborum .accordion-item:last-child{
+    border: none !important;
+}
+.accordionLaborum .accordion-header{
+    background-color: inherit !important;
+}
+.accordionLaborum .accordion-button{
+    background-color: inherit !important;
+}
+.accordionLaborum .accordion-button[aria-expanded=true]{
+    color: rgb(9, 42, 255) !important;
+}
+.accordionLaborum .accordion-button:focus{
+    box-shadow: none !important;
+}

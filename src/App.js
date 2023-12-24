@@ -1,24 +1,52 @@
-import logo from './logo.svg';
+import { BrowserRouter , Routes , Route} from 'react-router-dom';
 import './App.css';
+import MyDashbord from './Pages/MyDashbord/MyDashbord';
+import MyProfile from './Pages/MyProfile/MyProfile';
+import MyFaq from './Pages/MyFaq/MyFaq';
+import MyContact from './Pages/MyContact/MyContact';
+import MyLogin from './Pages/MyLogin/MyLogin';
+
+import MyAlert from './Pages/ComponentsPages/MyAlert/MyAlert';
+import MyAccordion from './Pages/ComponentsPages/MyAccordion/MyAccordion';
+import MyBadges from './Pages/ComponentsPages/MyBadges/MyBadges';
+import MyButtons from './Pages/ComponentsPages/MyButtons/MyButtons';
+import MyCard from './Pages/ComponentsPages/MyCard/MyCard';
+
+import MyFormElements from './Pages/FormPages/MyFormElements/MyFormElements';
+
+import MyGeneralTables from './Pages/TablesPages/MyGeneralTables/MyGeneralTables';
+
+import MyChartJs from './Pages/ChartsPages/MyChartJs/MyChartJs';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<MyDashbord />} />
+
+        <Route path='/components/alert' element={<MyAlert />} />
+        <Route path='/components/accordion' element={<MyAccordion />} />
+        <Route path='/components/badges' element={<MyBadges />} />
+        <Route path='/components/buttons' element={<MyButtons />} />
+        <Route path='/components/card' element={<MyCard />} />
+
+        <Route path='/form/formElement' element={<MyFormElements />} />
+      
+        <Route path='/tables/generalTables' element={<MyGeneralTables />} />
+
+        <Route path='/charts/chartJs' element={<MyChartJs />} />
+        
+        <Route path='/profile' element={<MyProfile />} />
+        <Route path='/faq' element={<MyFaq />} />
+        <Route path='/contact' element={<MyContact />} />
+        <Route path='/login' element={<MyLogin />} />
+      </Routes>
+    </BrowserRouter>
+    
   );
 }
 

@@ -1,0 +1,8 @@
+
+
+.breadcrumbContainer .breadcrumb-item a {
+    text-decoration: none !important;
+    color: #000 ;
+    opacity: 0.5 !important;
+    pointer-events: none !important;
+}

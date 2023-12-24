@@ -1,0 +1,11 @@
+.NewsDesc .description{
+    white-space:normal;
+    width: 80%;
+}
+.NewsImage{
+   width: 30%;
+}
+
+.NewsDesc .description {
+    padding-left: 15px;
+}

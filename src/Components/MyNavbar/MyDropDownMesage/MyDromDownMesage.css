@@ -1,0 +1,9 @@
+.message-dropDown{
+    max-width: 400px;
+    word-wrap: normal;
+    overflow-wrap: break-word;
+}
+.wrap-word{
+    word-wrap: normal;
+    overflow-wrap: break-word;
+}

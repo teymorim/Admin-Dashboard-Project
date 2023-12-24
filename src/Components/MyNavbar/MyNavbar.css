@@ -1,0 +1,17 @@
+.dropdown-toggle::after {
+    display:none !important;
+}
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    position: sticky !important;
+    top: 0;
+    background-color: #fff !important;
+    z-index: 1000 !important;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none !important;
+}
+.navbar .dropdown-menu{
+    left: -37px !important;
+    top: 43px !important;
+}

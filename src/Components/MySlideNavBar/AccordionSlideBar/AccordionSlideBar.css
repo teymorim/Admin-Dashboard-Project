@@ -1,0 +1,54 @@
+.list-slideBar .accordion-button:focus{
+    box-shadow: none !important;
+}
+
+.list-slideBar .accordion-item{
+    border: none !important;
+    background-color: inherit !important;
+}
+.list-slideBar .accordion{
+   background-color: inherit !important;
+}
+.list-slideBar .accordion-button:not(.collapsed) {
+    color: rgb(0, 0, 255);
+}
+.list-slideBar .accordion-button:hover{
+    color: blue !important;
+}
+.list-slideBar .accordion-header{
+    margin-right:70px !important;
+    background-color: inherit !important;
+}
+.list-slideBar .accordion-button:focus{
+    border-radius: 10px !important;
+}
+.list-slideBar .accordion-button{
+    border: none !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-right: 35px !important;
+    background-color: inherit !important;
+}
+
+
+.list-slideBar .accordion-button p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.list-slideBar .accordion-body{
+    font-size: 18px;
+    font-weight: 500;
+    display: list-item;
+    list-style: disc;
+    margin-left: 45px;
+}
+
+.list-slideBar .accordion-body:hover{
+ 
+    color: rgb(0, 0, 255) !important;
+    cursor: pointer;
+}
